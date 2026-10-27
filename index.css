@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Source+Code+Pro:wght@400;500;600&display=swap');
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #17213a;
+  background: #f7f8fc;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --font-display: 'Manrope', sans-serif;
+  --font-code: 'Source Code Pro', monospace;
+  --ink: #17213a;
+  --muted: #65708a;
+  --line: #e4e8f1;
+  --surface: #fff;
+  --surface-soft: #f4f6fb;
+  --page: #f7f8fc;
+  --navy: #101a35;
+  --blue: #426cff;
+  --blue-deep: #3156dc;
+  --violet: #8c62ed;
+  --mint: #51c7a2;
+  --shadow: 0 18px 48px rgba(27, 43, 82, .09);
+}
+
+:root[data-theme='dark'] {
+  color: #edf1ff;
+  background: #0c1222;
+  --ink: #edf1ff;
+  --muted: #a4afc8;
+  --line: #26314a;
+  --surface: #151f34;
+  --surface-soft: #1b2840;
+  --page: #0e1629;
+  --navy: #0a1121;
+  --shadow: 0 18px 48px rgba(0, 0, 0, .24);
+}
+
+* { box-sizing: border-box; }
+html { min-width: 320px; scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; min-height: 100vh; background: var(--page); color: var(--ink); }
+body, button, input, select { font-family: 'DM Sans', sans-serif; }
+button, a, input, select { -webkit-tap-highlight-color: transparent; }
+button { color: inherit; }
+a { color: inherit; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid rgba(66, 108, 255, .55); outline-offset: 3px; }
+::selection { color: #fff; background: #426cff; }
