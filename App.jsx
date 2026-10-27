@@ -11,7 +11,6 @@ import About from './pages/About.jsx'
 import NotFound from './pages/NotFound.jsx'
 import { SiteContext } from './utils/siteContext.js'
 import { readBookmarks, readTheme, saveBookmarks, saveTheme } from './utils/storage.js'
-import  App from './App.jsx'
 import './App.css'
 import './NeuralNotes.css'
 
