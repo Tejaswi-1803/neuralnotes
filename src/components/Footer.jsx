@@ -11,7 +11,7 @@ export default function Footer() {
             <p>Clear explanations for curious minds. Build a practical understanding of artificial intelligence, one idea at a time.</p>
           </div>
           <div className="footer-col"><strong>Explore</strong><Link to="/articles">All articles</Link><Link to="/learn">Knowledge quiz</Link><Link to="/playground">ML Playground</Link></div>
-          <div className="footer-col"><strong>Project</strong><Link to="/about">About NeuralNotes</Link><a href="https://github.com/your-username" target="_blank" rel="noreferrer" aria-label="GitHub profile placeholder"><ExternalLink size={14} style={{ verticalAlign: 'middle', marginRight: 5 }} />GitHub profile placeholder</a><a href="https://www.linkedin.com/in/your-username" target="_blank" rel="noreferrer" aria-label="LinkedIn profile placeholder"><ExternalLink size={14} style={{ verticalAlign: 'middle', marginRight: 5 }} />LinkedIn placeholder</a></div>
+          <div className="footer-col"><strong>Project</strong><Link to="/about">About NeuralNotes</Link><a href="https://github.com/Tejaswi-1803" target="_blank" rel="noreferrer" aria-label="GitHub profile"><ExternalLink size={14} style={{ verticalAlign: 'middle', marginRight: 5 }} />GitHub</a><a href="https://www.linkedin.com/in/valluri-tejaswi-7578a42b4/" target="_blank" rel="noreferrer" aria-label="LinkedIn profile"><ExternalLink size={14} style={{ verticalAlign: 'middle', marginRight: 5 }} />LinkedIn</a></div>
         </div>
         <div className="footer-bottom"><span>© {new Date().getFullYear()} NeuralNotes. An independent learning project.</span><span>Made for curious minds.</span></div>
       </div>
