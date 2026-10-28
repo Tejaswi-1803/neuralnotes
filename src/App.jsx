@@ -32,7 +32,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '')}>
       <SiteContext.Provider value={{ bookmarks, toggleBookmark }}>
         <div className="site-shell">
           <Navbar theme={theme} onThemeChange={() => setTheme((value) => value === 'dark' ? 'light' : 'dark')} />
